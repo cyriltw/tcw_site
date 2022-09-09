@@ -115,3 +115,24 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# Bibliography
+scholar:
+  style: chicago-fullnote-bibliography
+  locale: en
+  sort_by: none
+  order: ascending
+  group_by: none
+  group_order: ascending
+  source: _bibliography
+  bibliography: papers.bib
+  bibliography_template: bibliography
+  replace_strings: true
+  join_strings:    true
+  use_raw_bibtex_entry: true
+  #details_dir:    bibliography
+  #details_layout: bibtex.html
+  details_link:   Details
+  repository: publications
+
+  query: "@*"
